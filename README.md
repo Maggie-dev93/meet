@@ -2,12 +2,12 @@
 Meet App is a comprehensive event management application designed to help users discover, organize, and participate in events effortlessly. Whether you're looking for local gatherings, professional conferences, or social meet-ups, Meet App provides a user-friendly interface to explore and manage events tailored to your interests and location.
 
 # Key Features
-Filter Events by City: Easily find events in your preferred location.
-Show/Hide Event Details: Toggle event details to see more or less information as needed.
-Specify Number of Events: Control how many events are displayed at a time.
-Offline Access: Use the app and access cached event data even without an internet connection.
-Add App Shortcut: Quickly access the Meet App from your home screen.
-Visualize Event Data: View charts that provide insights into upcoming events.
+- Filter Events by City: Easily find events in your preferred location.
+- Show/Hide Event Details: Toggle event details to see more or less information as needed.
+- Specify Number of Events: Control how many events are displayed at a time.
+- Offline Access: Use the app and access cached event data even without an internet connection.
+- Add App Shortcut: Quickly access the Meet App from your home screen.
+- Visualize Event Data: View charts that provide insights into upcoming events.
 
 
 # Project Features and Scenarios
