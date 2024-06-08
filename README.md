@@ -1,6 +1,23 @@
+# Introduction
+Meet App is a comprehensive event management application designed to help users discover, organize, and participate in events effortlessly. Whether you're looking for local gatherings, professional conferences, or social meet-ups, Meet App provides a user-friendly interface to explore and manage events tailored to your interests and location.
+
+# Key Features
+Filter Events by City: Easily find events in your preferred location.
+Show/Hide Event Details: Toggle event details to see more or less information as needed.
+Specify Number of Events: Control how many events are displayed at a time.
+Offline Access: Use the app and access cached event data even without an internet connection.
+Add App Shortcut: Quickly access the Meet App from your home screen.
+Visualize Event Data: View charts that provide insights into upcoming events.
+
+
 # Project Features and Scenarios
 
 ## User Stories
+
+## Feature 1: Filter Events By City
+User Story 1:
+As a user, I should be able to filter events by city so that I can find events that are relevant to my location.
+
 ## Feature 2: Show/Hide Event Details
 User Story 1:
 As a user, I should be able to show or hide event details so that I can view or hide additional information about events as needed.
@@ -22,6 +39,24 @@ User Story 1:
 As a user, I should be able to view charts visualizing event details so that I can easily understand and analyze the event data.
 
 # Gherkin Scenarios
+
+## Feature 1: Filter Events By City
+
+## Scenario 1: When user hasn’t searched for a city, show upcoming events from all cities
+- Given the user has not searched for a city
+- When the user views the events list
+- Then show upcoming events from all cities
+
+## Scenario 2: User should see a list of suggestions when they search for a city
+- Given the user is searching for a city
+- When the user types in the search box
+- Then show a list of suggested cities based on the input
+
+## Scenario 3: User can select a city from the suggested list
+- Given the user is searching for a city
+- When the user selects a city from the suggested list
+- Then show upcoming events for the selected city
+
 ## Feature 2: Show/Hide Event Details
 
 ## Scenario 1: An event element is collapsed by default
