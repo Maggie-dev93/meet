@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/meet/static/css/main.435d5fe5.chunk.css",
+    "main.js": "/meet/static/js/main.176abb79.chunk.js",
+    "main.js.map": "/meet/static/js/main.176abb79.chunk.js.map",
+    "runtime~main.js": "/meet/static/js/runtime~main.556654dd.js",
+    "runtime~main.js.map": "/meet/static/js/runtime~main.556654dd.js.map",
+    "static/js/2.fd5371a8.chunk.js": "/meet/static/js/2.fd5371a8.chunk.js",
+    "static/js/2.fd5371a8.chunk.js.map": "/meet/static/js/2.fd5371a8.chunk.js.map",
+    "static/js/3.a29efab2.chunk.js": "/meet/static/js/3.a29efab2.chunk.js",
+    "static/js/3.a29efab2.chunk.js.map": "/meet/static/js/3.a29efab2.chunk.js.map",
+    "index.html": "/meet/index.html",
+    "precache-manifest.3dd07f3e6631ff9147d57144f490878e.js": "/meet/precache-manifest.3dd07f3e6631ff9147d57144f490878e.js",
+    "service-worker.js": "/meet/service-worker.js",
+    "static/css/main.435d5fe5.chunk.css.map": "/meet/static/css/main.435d5fe5.chunk.css.map",
+    "static/media/logo.svg": "/meet/static/media/logo.5d5d9eef.svg"
+  }
+}
