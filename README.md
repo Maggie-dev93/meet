@@ -1,4 +1,6 @@
-# Introduction
+# Meet App
+
+## Introduction
 Meet App is a comprehensive event management application designed to help users discover, organize, and participate in events effortlessly. Whether you're looking for local gatherings, professional conferences, or social meet-ups, Meet App provides a user-friendly interface to explore and manage events tailored to your interests and location.
 
 ## Key Features
