@@ -11,7 +11,9 @@ Meet App is a comprehensive event management application designed to help users 
 - Add App Shortcut: Quickly access the Meet App from your home screen.
 - Visualize Event Data: View charts that provide insights into upcoming events.
 
+
 ## Serverless Functions
+
 In the Meet app, serverless functions will be employed to handle the backend server logic. These functions, written in Node.js and utilizing the Express framework, will be deployed as AWS Lambda functions using the Serverless Toolkit. When a user interacts with the frontend, hosted on GitHub Pages, requests will be sent to these Lambda functions, which will process the data and interface with the Google Calendar API to fetch or update event information. By leveraging serverless functions, we can achieve a scalable and cost-efficient backend that automatically adjusts to the application's demand without the need for server management. The Serverless Toolkit will facilitate the development, testing, and deployment of these functions, ensuring a streamlined and efficient workflow.
 
 ## Project Features and Scenarios
