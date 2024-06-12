@@ -26,25 +26,3 @@ describe('<App /> component', () => {
    });
 });
 
-describe('<App />, integration', () => {
-  test('renders a list of events matching the city which user selected', async () => {
-      const user = userEvent.setup();
-      const appComponent = render(<App />);
-      const appDom = appComponent.container.firstChild;
-      const citySearchComponent = appDom.querySelector('#city-search');
-      const textbox = within(citySearchComponent).queryByRole('textbox');
-
-      await user.type(textbox, 'Berlin');
-      const berlinSuggestionItem = within(citySearchComponent).queryByText('Berlin, Germany');
-
-      await user.click(berlinSuggestionItem);
-      const allEvents = await getEvents();
-      const filteredEvents = allEvents.filter((event) => {
-          return event.location === 'Berlin, Germany';
-      });
-
-      const eventListDom = appDom.querySelector('#event-list');
-      const renderedEvents = within(eventListDom).queryAllByRole('listitem');
-      
-  });
-});
