@@ -3,6 +3,8 @@ import mockData from '../mock-data';
 import Event from '../components/Event';
 import { getEvents } from '../api';
 import userEvent from '@testing-library/user-event';
+import App from '../App';
+
 
 
 describe('<Event /> component', () => {
