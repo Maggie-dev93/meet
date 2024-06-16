@@ -41,17 +41,16 @@ defineFeature(feature, test => {
         });
     });
 
-    when('the user specifies a number of events to display', async () => {
+    when("the user specifies a number of events to display", async () => {
         const AppDOM = AppComponent.container.firstChild;
-            const EventListDOM = AppDOM.querySelector('#event-list');
-            expect(EventListDOM).toBeInTheDocument();
-        });
-
-    then('the specified number of events is shown', () => {
+        const button = AppDOM.querySelector("#number-of-events input");
+        await userEvent.type(button, "{backspace}{backspace}10");
+      });
+      
+      then("the specified number of events is shown", () => {
         const AppDOM = AppComponent.container.firstChild;
-        const eventList = within(AppDOM).queryAllByRole('listitem');
-        expect(eventList.length).toEqual(32);
-    }
-);
+        const eventList = within(AppDOM).queryAllByRole("listitem");
+        expect(eventList.length).toEqual(10);
+      });
 });
 });

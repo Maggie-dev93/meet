@@ -1,5 +1,6 @@
 import puppeteer from 'puppeteer';
 
+
 describe('show/hide event details', () => {
   let browser;
   let page;
@@ -24,11 +25,13 @@ describe('show/hide event details', () => {
 });
 
   test('User can expand an event to see details', async () => {
+    await page.click('.showDetailsButton');
     const eventDetails = await page.$('.event .details');
     expect(eventDetails).toBeDefined();
   });
   
   test('User can collapse an event to hide details', async () => {
+    await page.click('.showDetailsButton');
     const eventDetails = await page.$('.event .details');
     expect(eventDetails).toBeNull();
   });

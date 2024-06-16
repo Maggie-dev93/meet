@@ -6,7 +6,6 @@ import userEvent from '@testing-library/user-event';
 import App from '../App';
 
 
-
 describe('<Event /> component', () => {
     let EventComponent;
     const event = mockData[0];

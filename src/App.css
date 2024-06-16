@@ -79,9 +79,9 @@ input[type="number"] {
   position: relative;
 }
 
-.details-btn {
+.showDetailsButton {
   position: absolute;
-  background:#ccc;
+  background: off-white;
   right: 5px;
   bottom: 5px;
   padding: 5px 8px;
