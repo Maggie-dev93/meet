@@ -23,7 +23,7 @@ input[type="number"] {
   padding: 8px 6px 8px 10px;
   border-radius: 4px;
   outline: none;
-  border: 4px solid #ffcc00;
+  border: 4px solid mediumaquamarine;
   font-size: 14px;
   line-height: 20px;
   align-self: center;
@@ -71,7 +71,7 @@ input[type="number"] {
 
 .event {
   padding: 10px 10px 35px;
-  background: royalblue;
+  background: gainsboro;
   margin-bottom: 10px;
   text-align: left;
   border: 4px solid #ccc;
@@ -81,7 +81,7 @@ input[type="number"] {
 
 .showDetailsButton {
   position: absolute;
-  background: wheat;
+  background: mediumturquoise;
   right: 5px;
   bottom: 5px;
   padding: 5px 8px;
@@ -96,4 +96,9 @@ input[type="number"] {
   left: 20px;
   width: 250px;
   z-index: 1000;
+}
+
+.charts-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }

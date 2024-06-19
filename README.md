@@ -16,6 +16,24 @@ Meet App is a comprehensive event management application designed to help users 
 
 In the Meet app, serverless functions will be employed to handle the backend server logic. These functions, written in Node.js and utilizing the Express framework, will be deployed as AWS Lambda functions using the Serverless Toolkit. When a user interacts with the frontend, hosted on GitHub Pages, requests will be sent to these Lambda functions, which will process the data and interface with the Google Calendar API to fetch or update event information. By leveraging serverless functions, we can achieve a scalable and cost-efficient backend that automatically adjusts to the application's demand without the need for server management. The Serverless Toolkit will facilitate the development, testing, and deployment of these functions, ensuring a streamlined and efficient workflow.
 
+## Features
+
+- The app is a React application.
+- The app is built using the TDD technique.
+- The app uses the Google Calendar API and OAuth2 authentication flow.
+- The app uses AWS Lambda serverless functions.
+- The app’s code is hosted in a Git repository on GitHub.
+- The app works on the latest versions of Chrome, Firefox, Safari, Edge, and Opera, as well as on IE11.
+- The app displays well on all screen sizes (including mobile and tablet) with widths ranging from 320px to 1920px.
+- The app passes Lighthouse’s PWA checklist.
+- The app works offline or in slow network conditions with the help of a service worker.
+- Users can install the app on desktop and add the app to their home screen on mobile.
+- The app is deployed on GitHub Pages.
+- The app implements an alert system using an OOP approach to show information to the user.
+- The app makes use of data visualization.
+- The app is covered by tests with a coverage rate of >= 90%.
+- The app is monitored using Atatus.
+
 ## Project Features and Scenarios
 
 ### User Stories
